@@ -1,4 +1,4 @@
-<img src="icon.png" alt="Pusher Icon" width="72"/>
+<img src="Mac/Media.xcassets/AppIcon.appiconset/APNS_Logo256-1.png" alt="Pusher OS X" width="72"/>
 
 
 Pusher
@@ -6,7 +6,7 @@ Pusher
 
 *OS X and iOS application and framework to play with the Apple Push Notification service (APNs)*
 
-<img src="Docs/osx1.png" alt="Pusher OS X" width="612"/>
+<img src="Mac/Media.xcassets/AppIcon.appiconset/APNS_Logo256-1.png" alt="Pusher OS X" width="256"/>
 
 
 Installation

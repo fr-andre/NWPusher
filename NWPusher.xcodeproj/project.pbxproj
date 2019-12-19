@@ -46,7 +46,6 @@
 		5C7803C11D3C488C002107FB /* NWType.h in Headers */ = {isa = PBXBuildFile; fileRef = B34BF1B218DDF401004BA9F7 /* NWType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C7803C21D3C488C002107FB /* NWLCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B3376A62172BB71200242EBB /* NWLCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3005FC318F43659009BB7C3 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3005FC218F43659009BB7C3 /* Application.xib */; };
-		B33FB1C8172B185C006529CE /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B33FB1BB172B185C006529CE /* icon.icns */; };
 		B33FB1C9172B185C006529CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33FB1BC172B185C006529CE /* main.m */; };
 		B33FB1CB172B185C006529CE /* NWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33FB1BF172B185C006529CE /* NWAppDelegate.m */; };
 		B33FB1F8172B1A7A006529CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B33FB1EE172B1A7A006529CE /* Default-568h@2x.png */; };
@@ -69,6 +68,7 @@
 		B3C6BD8015FD24D200F1F3F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6BD7F15FD24D200F1F3F1 /* Cocoa.framework */; };
 		B3C6BDD315FD27E900F1F3F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C6BDD215FD27E900F1F3F1 /* Security.framework */; };
 		B3C6BE0115FD30E900F1F3F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3C6BE0015FD30E900F1F3F1 /* README.md */; };
+		B3DC032F23AB0251002F40BA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DC032E23AB0251002F40BA /* Media.xcassets */; };
 		B3F23256189657DA0043DA98 /* pusher.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B3F23255189657DA0043DA98 /* pusher.p12 */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +124,6 @@
 		B3005FC218F43659009BB7C3 /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
 		B3376A61172BB71200242EBB /* NWLCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NWLCore.c; path = Mac/NWLCore.c; sourceTree = SOURCE_ROOT; };
 		B3376A62172BB71200242EBB /* NWLCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWLCore.h; path = Mac/NWLCore.h; sourceTree = SOURCE_ROOT; };
-		B33FB1BB172B185C006529CE /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		B33FB1BC172B185C006529CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B33FB1BE172B185C006529CE /* NWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWAppDelegate.h; sourceTree = "<group>"; };
 		B33FB1BF172B185C006529CE /* NWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWAppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +158,7 @@
 		B3C6BD8415FD24D200F1F3F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3C6BDD215FD27E900F1F3F1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B3C6BE0015FD30E900F1F3F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B3DC032E23AB0251002F40BA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B3F23255189657DA0043DA98 /* pusher.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pusher.p12; sourceTree = SOURCE_ROOT; };
 		B3F232991896766B0043DA98 /* NWPusher.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NWPusher.podspec; sourceTree = "<group>"; };
 		B3F232A0189682D30043DA98 /* NWHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWHub.h; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 		B3376A60172B9F1F00242EBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B33FB1BB172B185C006529CE /* icon.icns */,
+				B3DC032E23AB0251002F40BA /* Media.xcassets */,
 				B33FB1BC172B185C006529CE /* main.m */,
 				B33FB1C0172B185C006529CE /* PusherMac-Info.plist */,
 				B33FB1C1172B185C006529CE /* PusherMac-Prefix.pch */,
@@ -488,6 +488,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B3C6BD7015FD24D200F1F3F1;
@@ -540,9 +541,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C6BE0115FD30E900F1F3F1 /* README.md in Resources */,
-				B33FB1C8172B185C006529CE /* icon.icns in Resources */,
 				B3005FC318F43659009BB7C3 /* Application.xib in Resources */,
 				B3B4DCD318A7998300F9F258 /* LICENSE.txt in Resources */,
+				B3DC032F23AB0251002F40BA /* Media.xcassets in Resources */,
 				B3AFABEF172C81910027346A /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -928,6 +929,7 @@
 		B3C6BD9A15FD24D200F1F3F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -948,6 +950,7 @@
 		B3C6BD9B15FD24D200F1F3F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
